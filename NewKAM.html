@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gaurav Kumar Singh | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background: #0f2a44;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 5px;
+    }
+
+    header p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+
+    header a {
+      color: #9fd3ff;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav button {
+      background: none;
+      border: none;
+      padding: 15px 20px;
+      cursor: pointer;
+      font-weight: 600;
+      color: #0f2a44;
+      transition: 0.3s;
+    }
+
+    nav button:hover, nav button.active {
+      background: #0f2a44;
+      color: #ffffff;
+    }
+
+    section {
+      display: none;
+      padding: 30px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section.active {
+      display: block;
+    }
+
+    h2 {
+      border-bottom: 2px solid #0f2a44;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      color: #0f2a44;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .cert-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .cert-card {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .cert-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .cert-card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #0f2a44;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0f2a44;
+      color: white;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Gaurav Kumar Singh</h1>
+  <p>Key Account Manager – E-commerce | Performance Marketing</p>
+  <p>Bangalore, India</p>
+  <p>
+    📧 <a href="mailto:gaurav.singh2021@outlook.com">gaurav.singh2021@outlook.com</a> |
+    📞 +91-7903209933 |
+    🔗 <a href="https://www.linkedin.com/in/gaurav-kumar-singh-2b5820240" target="_blank">LinkedIn</a>
+  </p>
+</header>
+
+<nav>
+  <button class="active" onclick="openTab('home')">Home</button>
+  <button onclick="openTab('skills')">Skills</button>
+  <button onclick="openTab('experience')">Experience</button>
+  <button onclick="openTab('projects')">Projects</button>
+  <button onclick="openTab('certifications')">Certifications</button>
+  <button onclick="openTab('contact')">Contact</button>
+</nav>
+
+<section id="home" class="active">
+  <h2>Professional Summary</h2>
+  <div class="card">
+    Results-driven Key Account Manager handling 25+ brands across Health, Beauty, OTC, and Pet Care categories. Managed ₹5.5 Cr+ monthly portfolios, executed data-led marketing campaigns, optimized P&L, pricing, inventory, and ads across Amazon, Flipkart, Myntra, Jiomart, Nykaa, and Meesho.
+  </div>
+
+  <h2>About Me</h2>
+  <div class="card">
+    MBA (Marketing & Finance) professional with 2.5+ years of hands-on experience in e-commerce operations, marketplace growth strategy, performance marketing, and cross-functional leadership. Strong in analytics, stakeholder management, and scalable growth execution.
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card">
+    <strong>Technical Skills</strong>
+    <ul>
+        <li>Data Analysis: Tableau, Excel, Digital Marketing: PPC, SCO, SCM, E-commerce Tools: CRM Software, Catalog Optimization ( Amazon, Flipkart, Meesho, Myntra )
+      </li>
+        <li>Reporting and Automation: Automated Dashboards, Performance Metrics Tracking ( Sales metrics, Conversion Rate, Advertising performance, Customer Metrics, Traffic Metrics, Return Rate, Fulfillment Metrics, Inventory Performance )</li>
+        
+      </ul>
+  </div>
+
+  <div class="card">
+    <strong>Soft Skills</strong>
+    <ul>
+        <li>Client Relationship Management,  Key Account Management, Vendor Relationship Management, 
+           <li> E-commerce Strategy,  Sales Growth Strategies, Up and Cross-Selling, Revenue Target Achievement</li> Pricing Strategies, PNL Management,
+          Customer Retention Tactics, Business Development and Expansion, Financial Oversight</li>
+        
+      </ul>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Professional Experience</h2>
+
+  <div class="card">
+    <strong>Key Account Manager</strong> (Jan 2026 – Present)<br>
+    Counfreedise Retail Services Ltd (BuyMore)
+    <ul>
+        <li>Led and managed a team of Account Managers, providing strategic direction, performance oversight, and execution support across key brand accounts.</li>
+      
+        <li>Owned team-level KPI tracking and closure, including excess inventory correction, target planning, SKU-wise growth monitoring, and marketplace launch readiness.</li>
+      
+        <li>Drove integrated marketplace strategies across Amazon, Flipkart, Myntra, Jiomart, and Meesho, ensuring strong alignment between pricing, promotions, inventory, and advertising.</li>
+      
+        <li>Conducted in-depth P&amp;L analysis to improve product-level profitability, optimize margins, and enhance overall portfolio ROI.</li>
+      
+        <li>Reviewed and corrected Buy Box performance, featured offers, and pricing discrepancies to protect brand visibility, conversion rates, and competitiveness.</li>
+      
+        <li>Prepared structured business roadmaps for new vendor onboarding, covering launch plans, category strategy, pricing frameworks, and defined growth milestones.</li>
+      
+        <li>Analyzed IXD and FBF inventory health to ensure optimal stock deployment, reduce stock ageing, and minimize OOS risks across marketplaces.</li>
+      </ul>
+      
+  </div>
+
+  <div class="card">
+    <strong>Senior Account Manager</strong> (Jul 2023 – Dec 2025)
+    <ul>
+        <li>Spearheaded end-to-end account management for 25+ Health, Beauty, OTC, and Pet Care brands, managing a ₹5.5 Cr+ monthly portfolio.</li>
+      
+        <li>Delivered up to <strong>30% YoY growth</strong> by optimizing pricing, promotions, and advertising strategies across Amazon, Flipkart, Myntra, Jiomart, Nykaa, and Meesho.</li>
+      
+        <li>Drove record-breaking sales during marquee events such as Amazon Prime Day and Flipkart Big Billion Days through strategic campaign planning, catalog optimization, and stock planning.</li>
+      
+        <li>Automated reporting using <strong>Tableau dashboards and advanced Excel models</strong>, significantly improving decision-making speed and operational efficiency.</li>
+      
+        <li>Conducted in-depth P&amp;L analysis to improve SKU-level profitability, margin health, and overall portfolio ROI.</li>
+      
+        <li>Built and maintained strong client and vendor relationships with leading brands including Mankind, Sun Pharma, Abbott, Lotus Herbals, and Menarini, ensuring high satisfaction and long-term retention.</li>
+      
+        <li>Expanded business opportunities by onboarding new platforms such as Meesho and launching multiple categories, creating incremental and scalable revenue streams.</li>
+      
+        <li>Managed and mentored junior Account Managers, guiding them on client servicing, reporting accuracy, and e-commerce strategy execution.</li>
+      
+        <li>Oversaw daily operations and business hygiene for major brands including <strong>Sun Pharma, Mankind, Abbott, Lotus Herbals, and Menarini</strong> across Amazon and Flipkart.</li>
+      </ul>
+      
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects & Achievements</h2>
+  <div class="card">
+    <ul>
+        <li>Handled end-to-end account management for 25+ brands across Health, Beauty, OTC, and Pet Care categories, managing a ₹5.5 Cr+ monthly portfolio.</li>
+
+        <li>Achieved 30% YoY growth through optimized pricing, promotions, and performance-driven advertising strategies.</li>
+      
+        <li>Improved operational efficiency by streamlining workflows and automating performance and sales reports.</li>
+      
+        <li>Ensured brand visibility, compliance, and content accuracy across Amazon, Flipkart, Myntra, Jiomart, Nykaa, and Meesho.</li>
+      
+        <li>Managed cataloging, inventory planning, and demand forecasting to minimize stockouts and excess inventory.</li>
+      
+        <li>Delivered record-breaking sales during Amazon Prime Day and Flipkart Big Billion Days through strategic planning and execution.</li>
+      
+        <li>Conducted detailed P&amp;L analysis to improve SKU-level profitability and overall business margins.</li>
+      
+        <li>Collaborated cross-functionally with Ads, Catalog, Finance, and Warehouse teams to ensure seamless execution.</li>
+      
+        <li>Scaled key brands including Sun Pharma, Mankind, Lotus Herbals, Menarini, and Abbott across Amazon and Flipkart.</li>
+      
+        <li>Doubled Mankind brand sales within one year through optimized pricing, promotional planning, and marketplace expansion.</li>
+      
+        <li>Led category expansion and maximum new product launches under Mankind, strengthening portfolio depth and revenue contribution.</li>
+      
+        <li>Successfully onboarded Meesho as a new sales channel for Mankind, creating an additional revenue stream and working on further marketplace expansions.</li>
+      
+        <li>Built the Mankind OTX and Baby category strategy from scratch, including Daffy catalog management, brand page design, brand registry, and organic visibility setup.</li>
+      
+        <li>Achieved ₹30 lakhs monthly organic revenue for OTX brands without heavy advertising spends.</li>
+      
+        <li>Launched and scaled Sun Pharma brands on Amazon, Flipkart, and Myntra, including Photostable, Xerina, Suncros, Moisturex, and Cebhydra.</li>
+      
+        <li>Scaled Photostable Gold to 4x growth, achieving ₹35 lakhs in sales within 3 months on Amazon.</li>
+      
+        <li>Launched and grew Abbott brands on Amazon, Flipkart, and Myntra, including Selsun, Melaglow, Skinable, Follihair, Folliserum, and Minicheck.</li>
+      
+        <li>Executed event-driven pricing and promotional strategies during key events such as the Freedom Day Sale.</li>
+      
+        <li>Leveraged Tableau and Excel dashboards for real-time sales insights, KPI tracking, and decision-making.</li>
+      
+        <li>Ensured accurate listings, timely inventory availability, and promotional alignment across marketplaces.</li>
+      
+        <li>Maintained strong vendor relationships, resulting in improved satisfaction, trust, and long-term retention.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="cert-grid">
+
+    <div class="cert-card">
+      <strong>Google Digital Marketing</strong>
+      <br>
+      <a href="https://skillshop.exceedlms.com/student/award/EmkktPDBYt4WTiJcAqtydNZQ" target="_blank">
+        View Certificate
+      </a>
+    </div>
+
+    <div class="cert-card">
+      <strong>Amazon Ads Advanced Retail</strong>
+      <br>
+      <a href="https://advertising.amazon.com/academy/user-badges?ref_=aaa_us_cert_bdgs&activeLocale=en-ca" target="_blank">
+        View Certificate
+      </a>
+    </div>
+
+    <div class="cert-card">
+      <strong>JPMorgan Excel Simulation</strong>
+      <br>
+      <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/JPMorgan%20Chase%20Corporate/XiuvjcwqWRqH9oy38_JPMorgan%20Chase%20&%20Co._NRbMBuGevd89BvTSd_1722663074336_completion_certificate.pdf" target="_blank">
+        View Certificate
+      </a>
+    </div>
+
+    <div class="cert-card">
+      <strong>Leadership & People Management</strong>
+      <br>
+      <a href="https://static.semrush.com/academy/certificates/5da18b41a0/gaurav-kumar-singh_23.pdf" target="_blank">
+        View Certificate
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    📧 gaurav.singh2021@outlook.com<br>
+    📞 +91-7903209933<br>
+    🔗 LinkedIn: <a href="https://www.linkedin.com/in/gaurav-kumar-singh-2b5820240" target="_blank">Click Here</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Gaurav Kumar Singh | E-commerce & Performance Marketing Portfolio
+</footer>
+
+<script>
+  function openTab(tabId) {
+    document.querySelectorAll("section").forEach(sec => sec.classList.remove("active"));
+    document.querySelectorAll("nav button").forEach(btn => btn.classList.remove("active"));
+    document.getElementById(tabId).classList.add("active");
+    event.target.classList.add("active");
+  }
+</script>
+
+</body>
+</html>
